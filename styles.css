@@ -90,9 +90,7 @@ body{
     margin-right: 1rem;
  
 }
-.competencies{
-    /* background-color: teal; */
-}
+
 
 .competencies h4{
     margin-top: 0;
@@ -225,6 +223,12 @@ border-bottom: 2px solid black;
 
 }
 
+.forzuri a{
+    font-weight: bold;
+    padding-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
 
 @media screen and (max-width:1200px){
     .container{
