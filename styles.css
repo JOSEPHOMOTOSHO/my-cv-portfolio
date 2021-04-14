@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    margin-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
+    max-width: 60%;
+    background-color: #f8f8ff;
+    /* background-color: aqua; */
+}
+
+
+.top{
+    /* background-color: cadetblue; */
+    text-align: center;
+    padding: 0;
+}
+
+.top h1{
+    margin: 0;
+    padding: 0;
+    /* background-color: pink; */
+}
+
+.top h4{
+    /* background-color: purple; */
+    margin: 0;
+    padding: 0.2rem 0;
+}
+
+.top p{
+    /* background-color: royalblue; */
+    margin: 0;
+    
+    margin-right: 0.625rem;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contact a{
+    border-left: 3px solid black;
+    padding-left: 0.3rem;
+}
+
+.profile h4{
+    /* background-color: red; */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    padding-bottom: 0;
+    border-bottom: 2px solid black;
+}
+
+.profile p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    /* background-color: rosybrown; */
+}
+.education h4{
+    margin: 0;
+    padding: 0.5rem;
+    padding-bottom: 0;
+    border-bottom: 2px solid black;
+    /* background-color: springgreen; */
+}
+
+.education-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    padding-bottom: 0;
+    /* background-color: skyblue; */
+
+}
+
+.education-content p:nth-child(2){
+    /* background-color: red; */
+    margin-right: 1rem;
+ 
+}
+.competencies{
+    /* background-color: teal; */
+}
+
+.competencies h4{
+    margin-top: 0;
+    padding: 0.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid black;
+
+}
+
+.listedCompetence{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.listedCompetence li{
+    font-size: 1rem;
+    /* background-color: thistle; */
+}
+
+.listedCompetence1{
+    margin-left: 0.625rem;
+}
+
+
+
+.Skills h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    padding-bottom: 0;
+    border-bottom: 2px solid black;
+
+}
+
+.SkillsList{
+    margin-top: 0;
+    /* background-color: tomato; */
+    padding-left: 1.1875rem;
+    margin-bottom: 0.5rem;
+}
+
+.Work h4{
+margin-bottom: 0;
+margin-top: 0;
+padding: 0.5rem;
+padding-bottom: 0;
+border-bottom: 2px solid black;
+/* background-color:yellow; */
+}
+
+.latest-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 0.5rem 0;
+}
+.latest-head h5{
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0.625rem;
+}
+
+.latest-head h5:nth-child(2){
+    margin-right: 0.625rem;
+}
+
+.latest-list{
+    margin-top: 0;
+    /* background-color: blueviolet; */
+    padding-left: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+.mid{
+    margin-top: 0;
+    /* background-color: brown; */
+}
+
+.mid-head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.5rem 0;
+}
+
+.mid-head{
+    margin-left: 0.625rem;
+}
+
+.mid-head span{
+    margin-right: 0.625rem;
+}
+
+.mid-list{
+    margin-top: 0;
+    /* background-color: pink; */
+    padding-left: 1.25rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.first{
+    margin-top: 0;
+    /* background-color:olivedrab; */
+}
+
+.first-head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0.625rem;
+    padding: 0.5rem 0;
+}
+
+.first-head span{
+    margin-right: 0.625rem;
+}
+
+
+
+.first-list{
+    margin-top: 0;
+    /* background-color:lightcyan; */
+    padding-left: 1.25rem;
+    margin-bottom: 0;
+
+}
+
+
+@media screen and (max-width:1200px){
+    .container{
+        max-width: 100%;
+        padding: 0.5rem;
+        /* background-color: white; */
+        
+    }
+    .listedCompetence,.SkillsList{
+        flex-direction: column;
+        margin-left: 0.7rem;
+        border-top: none;
+        padding: 0.5em;
+    }
+
+    .education h4, .competencies h4,.profile h4,.Work h4,.Skills h4{
+        border-bottom: 2px solid black;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+        
+    }
+    
+    .listedCompetence1{
+        margin-left: 0;
+    }
+
+    .profile p,.SkillsList{
+        padding: 0.5em;
+    }
+    .education-content{
+        text-align: center;
+        flex-direction: column;
+    }
+    .education-content p:nth-child(2){
+        /* background-color: red; */
+        margin: 0;
+     
+    }
+
+    .latest-head,.mid-head,.first-head{
+        flex-direction: column;
+        text-align: center;
+        /* background-color: burlywood; */
+        padding: 0.5em;
+    }
+}
+
+
+
+
